@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(116, 47, 157);
+    background: cover;
+}
+h1{
+    background-color: aqua;
+    animation-name: head;
+    animation-duration: 5s;
+    display:table;
+    
+    
+}
+@keyframes head {
+    from{
+        text-decoration: none;
+        padding: 0px;
+    }to{
+        text-decoration: dotted;margin: 100px;
+        padding:200px;
+        background-color: black;
+        color: white;
+        border-radius: 100000000000px;
+        border-style: outset;
+        
+    }
+    
+    
+}
